@@ -1,0 +1,69 @@
+body {
+  font-family: 'Orbitron', Arial, sans-serif;
+  background-color: #0e0e0e;
+  color: #00ffe1;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00ffe1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  max-height: 400px;
+  overflow-y: hidden;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #00ffe1;
+  background-color: #000;
+  color: #00ffe1;
+  font-size: 16px;
+  resize: none;
+  transition: all 0.2s ease;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #00ffe1;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#chatLog {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+  white-space: pre-line;
+}
+
+.user-message {
+  color: #ffffff;
+}
+
+.bot-message {
+  color: #00ffcc;
+}
